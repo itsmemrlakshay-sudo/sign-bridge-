@@ -5,7 +5,7 @@ import path from 'path';
 import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
-  return {
+  returnkbase=/signbridge/ {
     plugins: [
       react(),
       tailwindcss(),
