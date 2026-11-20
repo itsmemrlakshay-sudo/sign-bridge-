@@ -5,8 +5,8 @@ import path from 'path';
 import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
-  returnkbase=/signbridge/ {
-    plugins: [
+  return { base: '/sign-bridge-/',
+          plugins: [
       react(),
       tailwindcss(),
       // Copies src/assets into dist/ so root-relative URLs like
